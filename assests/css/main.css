@@ -64,7 +64,7 @@ h2 {
     color: #454545;
     margin-top: 35px;
     padding-bottom: 20px;
-    border-bottom: 1px dotted #C90035;
+    border-bottom: 1px dotted #000;
   }
 h2:after {
     position: absolute;
@@ -74,7 +74,7 @@ h2:after {
     margin-top: 10px;
     padding: 0 5px;
     font-size: 13pt;
-    color: #C90035;
+    color: #000;
     content: '\f192';
     font-weight: 300;
     background-color: #fff;
@@ -134,7 +134,7 @@ background-color: #000;
 .btn-default
 {
   background-color: #FFF;
-  color: #D9476C;;
+  /*color: #D9476C;*/
   border-radius: 50px;
   border-color: transparent;
   font-weight: 500;
@@ -248,7 +248,7 @@ z-index: 999999;
 }
 .main-nav-scrolled {
   padding: 0px 0;
-  background: linear-gradient(to right,rgba(212,51,93, 0.9),rgba(255,86,39,0.9));
+  background: linear-gradient(to right,#271A0E,#eaa421ba);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   height: auto;
@@ -291,7 +291,7 @@ z-index: 999999;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.navbar-default .navbar-nav li  a:hover{color: #C90035	}
+.navbar-default .navbar-nav li  a:hover{color: #271A0E	}
 .navbar-right li:hover:before, .navbar-right li:focus:before, .navbar-right li:active:before {
   border-radius: 50px;
   -webkit-transform: scaleY(1);
@@ -303,11 +303,12 @@ z-index: 999999;
 .navbar-brand img
 {
   margin-left: -16px;
+  height: 30px;
 }
 /*------------04. START OF HEAD SECTION----------*/
 .head-section
 {
-  background-image:url(../images/hand.png),linear-gradient(to right,rgba(212,51,93, 0.9),rgba(255,86,39,0.9)), url(../images/happy.jpg);
+  background-image:url(../images/hand.png),linear-gradient(to right,#271A0E,#eaa421ba), url(../images/happy.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -344,7 +345,7 @@ z-index: 999999;
 .about-section i
 {
   font-size: 50px;
-  background: -webkit-linear-gradient(#FF5627, #C90035);
+  background: -webkit-linear-gradient(#271A0E, #271A0E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -384,7 +385,7 @@ z-index: 999999;
 .features-section h2{margin-bottom: 30px;}
 .features-section h2:after
 {
-margin-left: 53px;
+margin-left: 230px;
 background-color: #edefef;
 }
 .left-info div,.right-info div
@@ -398,7 +399,7 @@ background-color: #edefef;
   transition: all 0.4s;
 }
 .left-info div:hover,.right-info div:hover{
-  background-image: linear-gradient(to right,rgba(212,51,93, 0.9),rgba(255,86,39,0.9));
+  background-image: linear-gradient(to right,#271A0E,#eaa421ba);
   color: #FFF;
   -webkit-transition: all 0.4s;
   -ms-transition:all 0.4s;
@@ -412,7 +413,7 @@ background-color: #edefef;
 /*------------07. START OF VIDEO SECTION----------*/
 
 .video-section{
-  background-image: linear-gradient(to right,rgba(212,51,93, 0.9),rgba(255,86,39,0.9)), url(../images/video-bg.jpeg);
+  background-image: linear-gradient(to right,#271A0E,#eaa421ba), url(../images/video-bg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -435,7 +436,7 @@ background-color: #edefef;
 
 .testmonial-section
 {
-  background-image: linear-gradient(to right,rgba(212,51,93,0.9),rgba(255,86,39,0.8)),url(../images/text.png);
+  background-image: linear-gradient(to right,#271A0E,#eaa421ba),url(../images/text.png);
 }
 .owl-theme .owl-nav [class*="owl-"], .owl-theme .owl-nav [class*="owl-"]:hover
 {
@@ -844,7 +845,7 @@ border-color: #D9476C;
 
 .download-section
 {
-  background-image: linear-gradient(to right,rgba(212,51,93, 0.9),rgba(255,86,39,0.9)),url(../images/text.png);
+  background-image: linear-gradient(to right,#271A0E,#eaa421ba),url(../images/text.png);
   color: #FFF;
   background-position: center;
   background-repeat: no-repeat;
@@ -871,8 +872,8 @@ border-color: #D9476C;
 .download-section h2:after
 {
   margin-left: 43px;
-background-color: #E5514E;
-  color: #FFF;
+  background: transparent;
+  color: #fff;
 }
 .download-section .row
 {

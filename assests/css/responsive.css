@@ -45,11 +45,11 @@
     @media only screen and (max-width : 992px) {
     .navbar-right
     {
-      background: linear-gradient(to right,rgba(212,51,93),rgba(255,86,39));
+      background: linear-gradient(to right,#271A0E,#eaa421ba);
     }
     .head-section
     {
-      background-image:linear-gradient(to right,rgba(212,51,93, 0.9),rgba(255,86,39,0.9)), url(../images/happy.jpg);
+      background-image:linear-gradient(to right,#271A0E,#eaa421ba), url(../images/happy.jpg);
     }
     .video-section h3{font-size:20px;}
     .video-section p{font-size: 17px;}
