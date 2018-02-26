@@ -371,7 +371,6 @@ z-index: 999999;
 
 .features-section
 {
-
   background: linear-gradient(to bottom ,rgba(246,246,246, 0.9),rgba(256, 256, 256, 1)),url(../images/happy.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -385,8 +384,13 @@ z-index: 999999;
 .features-section h2{margin-bottom: 30px;}
 .features-section h2:after
 {
-margin-left: 230px;
-background-color: #edefef;
+  margin-left: 80px;
+  background-color: #edefef;
+  margin-bottom: 20px;
+}
+.features-section .container
+{
+  margin-top: 70px;
 }
 .left-info div,.right-info div
 {
@@ -419,6 +423,14 @@ background-color: #edefef;
   background-attachment: fixed;
   background-size: cover;
   color: #FFF;
+}
+.video-section h2 {
+  border-bottom: 1px dotted #FFF;
+}
+.video-section h2:after {
+  margin-left: 224px;
+  background: transparent;
+  color: #fff;
 }
 .video-section h3
 {
@@ -564,11 +576,14 @@ width: 220px !important;
 
 .counter-section
 {
-  background-image: linear-gradient(to right,rgba(212,51,93, 1),rgba(255,86,39,0.9)),url(../images/lap.jpeg);
+  background-image: linear-gradient(to right,#271A0E,#eaa421ba), url(../images/video-bg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+.counter-section h2 {
+  border-bottom: 1px dotted #FFF;
 }
 .counter-section span,.counter-section i
 {
@@ -596,9 +611,9 @@ font-size: 20px
 }
 .counter-section h2::after
 {
-margin-left: 57px;
-background-color: #e94c4b;
-color: #FFF;
+  margin-left: 35px;
+  background: transparent;
+  color: #fff;
 }
 
 /*------------11. START OF TEAM SECTION----------*/
@@ -722,13 +737,18 @@ height: 100%;
 }
 .owl-theme .owl-nav [class*=owl-],.owl-theme .owl-nav [class*=owl-]:hover
 {
-  background-color: #C90035
+  background-color: #C90035;
+}
+.owl-theme .owl-nav [class*=owl-] {
+  margin-top: 200px;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #C90035	;
     margin-top: 20px;
 }
-
+element.style {
+  margin-right: -110px;
+}
 /*------------12. START OF PLANS SECTION----------*/
 
 .plans-section
@@ -790,6 +810,7 @@ border-color: #D9476C;
   box-shadow: -12px 0px 28px -1px rgba(0,0,0,0.08);
   transform: scale(0.95);
   transition: all .3s;
+  background-color: #FFF;
 }
 .stnd
 {
@@ -797,7 +818,7 @@ border-color: #D9476C;
 }
 .stnd .head-plan
 {
-  background: linear-gradient(to right,rgba(212,51,93, 0.9),rgba(255,86,39,0.9));
+  background-color: #271A0E;
   color: #FFF;
 }
 .stnd
@@ -818,7 +839,7 @@ border-color: #D9476C;
 .plan:hover .head-plan,.plan:hover a
 {
 
-  background: linear-gradient(to right,rgba(212,51,93, 0.9),rgba(255,86,39,0.9))  ;
+  background: #eaa421ba;
   color: #FFF;
   -webkit-transition: all 300ms linear;
   -ms-transition: all 300ms linear;
@@ -838,7 +859,8 @@ border-color: #D9476C;
 .info-price i
 {
   margin-right:10px;
-  font-size: 20px
+  font-size: 20px;
+  color: #000;
 }
 
 /*------------13. START OF DOWNLOAD SECTION----------*/
@@ -1027,4 +1049,8 @@ button:active {
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
+}
+
+.team-section ul {
+  top: 140px;
 }
